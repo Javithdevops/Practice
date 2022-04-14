@@ -3,4 +3,5 @@ module "instance_lunch" {
   sg_name = var.sg_name
   instance_type = var.instance_type
   servertag = var.servertag
+  az = var.az
 }
