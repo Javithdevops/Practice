@@ -21,7 +21,7 @@ data "aws_ami" "amazon-lnx" {
 
   filter {
     name   = "name"
-    values = ["amzn2-ami-kernel-5.10-hvm*"]
+    values = ["amzn2-ami-kernel-5.10-hvm-*"]
   }
 
   filter {
